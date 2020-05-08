@@ -1,0 +1,44 @@
+/*
+ * Sidebar
+ *
+ *
+ *
+ */
+.sidebar{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+/* Sidebar content */
+.sidebar h2{
+    margin-top: 0rem;
+    color: #fff;
+}
+h2.sidebar-nav-item{
+    border-top: 0;
+}
+
+/* Sidebar Profile */
+.sidebar_profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0;
+}
+.sidebar_profile img{
+    width: 80%;
+    border-radius: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.sidebar-bottom{
+}
+
+/* Sidebar nav */
+.sidebar-nav{
+    border: 0;
+    display: flex;
+    flex-direction: column;
+
+}

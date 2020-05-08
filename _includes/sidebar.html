@@ -4,11 +4,13 @@
 
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
-  <div class="sidebar-item">
+  <div class="sidebar-item sidebar_profile">
+    <img src="https://avatars2.githubusercontent.com/u/41113918?s=460&u=8a739c6ab902c64ea3f755e75d215d006f40d934&v=4" alt="대충 못생긴 사진">
+    <h2>{{ site.author.name }}</h2>
     <p>{{ site.description }}</p>
   </div>
-
   <nav class="sidebar-nav">
+    <h2 class="sidebar-nav-item">Index</h2>
     <a class="sidebar-nav-item{% if page.title == 'Home' %} active{% endif %}" href="{{ '/' | absolute_url }}">Home</a>
 
     {% comment %}
@@ -26,9 +28,8 @@
     {% endfor %}
 
     <a class="sidebar-nav-item" href="https://github.com/jeongnaehyeok">GitHub</a>
-    <span class="sidebar-nav-item">안녕하세요 백수의 블로그입니다.</span>
+    <!-- <span class="sidebar-nav-item">안녕하세요 백수의 블로그입니다.</span> -->
   </nav>
-
   <div class="sidebar-item">
     <p>
       &copy; {{ site.time | date: '%Y' }}. All rights reserved.
