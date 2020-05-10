@@ -40,5 +40,28 @@ h2.sidebar-nav-item{
     border: 0;
     display: flex;
     flex-direction: column;
-
+}
+.sidebar-nav-accordion{
+    cursor: pointer;
+    transition: 0.4s;
+} 
+.category-active, .sidebar-nav-accordion:hover {
+    
+}
+.sidevar-nav-panner {
+    background-color: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+.sidebar-nav-accordion:after {
+    content: '\254B'; /* Unicode character for "plus" sign (+) */
+    font-size: .75rem;
+    float: right;
+    color: #fff;
+}
+  
+.category-active:after {
+    
+    content: "\2501"; /* Unicode character for "minus" sign (-) */
 }
