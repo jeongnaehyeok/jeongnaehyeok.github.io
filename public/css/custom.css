@@ -1,9 +1,9 @@
 /*
- * Sidebar
- *
- *
- *
- */
+* Sidebar
+*
+*
+*
+*/
 .sidebar{
     height: 100vh;
     display: flex;
@@ -53,6 +53,9 @@ h2.sidebar-nav-item{
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+}
+.sidevar-nav-panner > a{
+    padding: .5rem 2rem;
 }
 .sidebar-nav-accordion:after {
     content: '\254B'; /* Unicode character for "plus" sign (+) */
