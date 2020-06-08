@@ -48,7 +48,7 @@ body {
 }
 
 html {
-  font-family: "NanumBarunGothic";
+  font-family: 'Nanum Gothic', sans-serif;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -110,7 +110,7 @@ p {
 }
 
 strong {
-  font-family: "NanumBarunGothicBold";
+  font-family: 'Nanum Gothic', sans-serif;
   color: #303030;
 }
 
@@ -390,7 +390,7 @@ tbody tr:nth-child(odd) th {
   overflow: hidden; /* clearfix */
   margin-left: -1rem;
   margin-right: -1rem;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Nanum Gothic', sans-serif;
   color: #ccc;
   text-align: center;
 }
