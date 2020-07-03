@@ -2,7 +2,7 @@
 
 layout: post
 
-title: CORS관련 에러
+title: 유용한 사이트
 
 date: 2020-07-03
 
