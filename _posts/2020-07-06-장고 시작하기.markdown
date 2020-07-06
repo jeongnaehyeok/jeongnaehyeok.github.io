@@ -1,0 +1,101 @@
+---
+
+layout: post
+
+title: Django 시작하기
+
+date: 2020-07-06
+
+modified: 2020-07-06
+
+category: Django
+
+tags: [mac, python, django]
+
+Author: DDK0301
+
+---
+
+## 사전 준비
+
+#### MAC에는 기본적으로 Python이 설치되있지만 장고를 사용하기 위해서는 Python3를 설치해야한다. MAC의 관리를 위해 Homebrew에 설치하여 사용하자.
+
+##### homebrew 설치
+
+~~~bash
+$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+~~~
+
+##### 환경변수(PATH) 설정
+
+~~~bash
+$ ls -a
+$ sudo vi .profile
+# 키보드에서 i키를 입력(insert)
+export PATH=/usr/local/bin:/usr/local/sbin:$PATH
+# esc를 누른 후에
+:wq
+~~~
+
+#### Homebrew의 설치가 끝났고 이제 Python3를 설치 하자.
+
+##### Python3 설치
+
+~~~bash
+$ brew install python3
+~~~
+
+##### Python3 설치 확인
+
+~~~bash
+$ python3 --version
+~~~
+
+#### Python 3.x.x라고 나오면 설치가 완료된 것이다.
+
+## 가상환경 셋팅
+
+#### 가상환경을 사용하는 이유는 프로젝트별로 관리가 쉽고 다양한 환경에서 작업하기 위한 것이다. Python을 이용해서 Django의 가상환경을 만들어 보자.
+
+##### 가상환경생성
+
+~~~bash
+$ python3 -m venv myvenv
+~~~
+
+##### 가상환경 키기
+
+~~~bash
+$ source myvenv/bin/activate
+~~~
+
+##### 가상환경 끄기
+
+~~~bash
+$ deactive
+~~~
+
+#### 가상환경을 생성하고 활성화 시키면 터미널에 (myvenv)이라고 표시가 된다. 이것은 가상환경이 활성화 되있다는 표시이다.
+
+##### 파이썬 확인하기
+
+~~~bash
+(myvenv) $ python --version
+~~~
+
+#### 가상환경을 키기전에는 Python 버전을 확인하시면 Python2의 버전이 확인됬지만 가상환경에서는 Python3의 버전이 확인된다.
+
+## Django 설치하기
+
+#### Django를 사용하기 위한 모든 준비가 끝났다. 활성화된 가상환경에 Django를 설치하자.
+
+##### Django설치
+
+~~~bash
+(myvenv) $ pip install django
+~~~
+
+
+
+#### Django를 설치가 완료되었고, Django의 사용방법은 다음 포스트에서 다루도록 하겠다.
+
