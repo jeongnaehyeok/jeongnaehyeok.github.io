@@ -1,38 +1,52 @@
 <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
      styles, `#sidebar-checkbox` for behavior. -->
-<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox" />
 
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
   <div class="sidebar-item sidebar_profile">
-    <img src="https://avatars2.githubusercontent.com/u/41113918?s=460&u=8a739c6ab902c64ea3f755e75d215d006f40d934&v=4" alt="대충 못생긴 사진">
+    <img
+      src="https://avatars2.githubusercontent.com/u/41113918?s=460&u=8a739c6ab902c64ea3f755e75d215d006f40d934&v=4"
+      alt="대충 못생긴 사진"
+    />
     <h2>{{ site.author.name }}</h2>
     <p>{{ site.description }}</p>
   </div>
   <nav class="sidebar-nav">
     <h2 class="sidebar-nav-item">Index</h2>
-    
-    <a class="sidebar-nav-item{% if page.title == 'Home' %} active{% endif %}" href="{{ '/' | absolute_url }}">Home</a>
-    <a class="sidebar-nav-item{% if page.title == 'About' %} active{% endif %}" href="{{ '/about' | absolute_url }}">About</a>
+
+    <a
+      class="sidebar-nav-item{% if page.title == 'Home' %} active{% endif %}"
+      href="{{ '/' | absolute_url }}"
+      >Home</a
+    >
+    <a
+      class="sidebar-nav-item{% if page.title == 'About' %} active{% endif %}"
+      href="{{ '/about' | absolute_url }}"
+      >About</a
+    >
     <a class="sidebar-nav-item sidebar-nav-accordion">Category</a>
     <div class="sidevar-nav-panner">
-      {% assign pages_list = site.pages | sort:"url" %}
-      {% for node in pages_list %}
-        {% if node.title != null %}
-          {% if node.layout == "category" %}
-            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url | absolute_url }}">{{ node.title }}</a>
-          {% endif %}
-        {% endif %}
-      {% endfor %}
+      {% assign pages_list = site.pages | sort:"url" %} {% for node in
+      pages_list %} {% if node.title != null %} {% if node.layout == "category"
+      %}
+      <a
+        class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}"
+        href="{{ node.url | absolute_url }}"
+        >{{ node.title }}</a
+      >
+      {% endif %} {% endif %} {% endfor %}
     </div>
 
-    <a class="sidebar-nav-item" href="https://github.com/jeongnaehyeok">GitHub</a>
+    <a class="sidebar-nav-item" href="https://github.com/jeongnaehyeok"
+      >GitHub</a
+    >
     <!-- <span class="sidebar-nav-item">안녕하세요 백수의 블로그입니다.</span> -->
-    <a class="sidebar-nav-item" href="{{ '/project' | absolute_url }}">Project</a>
+    <a class="sidebar-nav-item" href="{{ '/project' | absolute_url }}"
+      >Project</a
+    >
   </nav>
   <div class="sidebar-item">
-    <p>
-      &copy; {{ site.time | date: '%Y' }}. All rights reserved.
-    </p>
+    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
 </div>

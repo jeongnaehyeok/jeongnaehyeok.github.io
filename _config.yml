@@ -1,22 +1,24 @@
 # Setup
-title:               방구석 호랑이
-tagline:             '이불 밖은 위험해'
-description:         '왜 집에만 있냐고요? <br> 아무도 안불러줘서 그래요.'
-url:                 https://jeongnaehyeok.github.io/
-baseurl:             ''
-paginate:            10
-permalink:           pretty
+title: 방구석 호랑이
+tagline: "이불 밖은 위험해"
+description: "왜 집에만 있냐고요? <br> 아무도 안불러줘서 그래요."
+url: https://jeongnaehyeok.github.io/
+baseurl: ""
+paginate: 10
+permalink: pretty
 
 # About/contact
 author:
-  name:              DDK0301
-  url:               https://jeongnaehyeok.github.io/
-  email:             cnh0301@gmail.com
+  name: DDK0301
+  url: https://jeongnaehyeok.github.io/
+  email: cnh0301@gmail.com
 
 # Gems
 plugins:
   - jekyll-paginate
 
 # Custom vars
-version:             1.1.0
+version: 1.1.0
 google_analytics_id: UA-138408156-1
+
+og:
