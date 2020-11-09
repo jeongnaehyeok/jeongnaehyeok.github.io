@@ -19,7 +19,7 @@ Author: DDK0301
 ## 개발
 
 1. 유저정보 얻는 사이트([http://www.useragentstring.com/](http://www.useragentstring.com/))
-2. html 호환성 체크(https://caniuse.com/)
+2. html 호환성 체크([https://caniuse.com/](https://caniuse.com/))
 
 ## 디자인
 
@@ -28,7 +28,7 @@ Author: DDK0301
 3. 배경없애주는 사이트([https://www.remove.bg/](https://www.remove.bg/))
 4. 아무것도 없는 사진 만들어주는 사이트([https://place-hold.it/](https://place-hold.it/))
 5. favicon만들어주는 사이트([https://www.favicon.cc/](https://www.favicon.cc/))
-6. 반응형 적용 예시(https://mediaqueri.es/)
+6. 반응형 적용 예시([https://mediaqueri.es/](https://mediaqueri.es/))
 
 ##  Git
 
@@ -37,12 +37,12 @@ Author: DDK0301
 ## 기획
 
 1. 프로그램의 구조를 그릴 수 있는 사이트([https://www.draw.io](https://www.draw.io))
-2. 간단하게 페이지에 대한 기획을 할 수 있는 사이트(https://ovenapp.io/)
+2. 간단하게 페이지에 대한 기획을 할 수 있는 사이트([https://ovenapp.io/](https://ovenapp.io/))
 
 ## Tip
 
 1. 변수명을 정해주는 사이트([https://www.curioustore.com](https://www.curioustore.com))
-2. 도메인을 구메하는 사이트(https://kr.godaddy.com/)
+2. 도메인을 구메하는 사이트([https://kr.godaddy.com/](https://kr.godaddy.com/))
 
 ## 잡것
 1. 와이파이를 QR코드류 만들어주는 사이트([https://qifi.org/](https://qifi.org/))
