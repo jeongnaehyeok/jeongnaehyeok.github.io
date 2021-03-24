@@ -10,7 +10,7 @@ modified: 2021-02-19
 
 category: Node.js
 
-tags: [mac, tip, study, webpack, setting]
+tags: [tip, study, webpack, setting]
 
 Author: DDK0301
 

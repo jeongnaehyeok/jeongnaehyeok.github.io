@@ -9,7 +9,7 @@ modified: 2021-03-04
 
 category: React
 
-tags: [React, Storybook, Webpack, CRA, Tip]
+tags: [react, storybook, CRA, tip, setting]
 
 Author: DDK0301
 ---
